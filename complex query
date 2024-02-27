@@ -1,4 +1,23 @@
-# SQL-Queries
+input 
+team1| team2| Winner
+IND|SL|IND
+SL|AUS|SL
+SA|ENG|ENG
+ENG|NZ|NZ
+AUS|IND|IND
+
+
+Output
+Team_name|Match_played|WIN|LOSS
+IND|2|2|0
+SL|2|0|2
+SA|1|0|1
+ENG|2|1|1
+
+and so on 
+
+
+Query :
 
 create table icc_world_cup
 (
